@@ -1,0 +1,21 @@
+{
+    "name": "gpfeisoft/hms",
+    "description": "预定义HTTP请求Method和返回状态码",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guopengfei",
+            "email": "503949517@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hms\\": "src/Hms"
+        }
+    }
+}
